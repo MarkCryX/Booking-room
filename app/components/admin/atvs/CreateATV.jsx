@@ -113,7 +113,7 @@ const CreateATV = () => {
         setNumATVPerRound(1);
         setRoundTimes([""]);
         setDescription("");
-        router.push("/admin/reserveatv/editreserveatv");
+        router.push("/admin/atv/edit-delete-atv");
       } else {
         const errorData = await response.json();
         setError(errorData.error || "ไม่สามารถสร้าง ATV ได้");
