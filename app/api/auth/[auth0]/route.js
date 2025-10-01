@@ -9,6 +9,6 @@ export const GET = handleAuth({
       audience: "http://localhost:3000",
       scope: "openid profile email ",
     },
-    returnTo: `${Url}/admin/booking`,
+    returnTo: `${Url}/admin/dashboard`,
   }),
 });

@@ -124,7 +124,7 @@ const CreateRooms = () => {
           images: [],
           status: "พร้อมให้บริการ",
         });
-        router.push("/admin/edit&deleteroom");
+        router.push("/admin/room/edit-delete-room");
       } else {
         alert(data.error || "ไม่สามารถสร้างห้องได้");
       }

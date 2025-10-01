@@ -29,7 +29,6 @@ const CreateATV = () => {
   const router = useRouter();
   const cloudinaryUploadUrl = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_URL;
 
-  
   const handleFileChange = (e) => {
     const files = Array.from(e.target.files);
     const previews = files.map((file) => URL.createObjectURL(file));

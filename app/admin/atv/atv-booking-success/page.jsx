@@ -7,7 +7,7 @@ function page() {
       <Sidebar />
       <div className="flex-1  p-10">
        
-        {/* เพิ่ม ml-64 เพื่อเลื่อนเนื้อหาหลักไปขวาให้พ้น Sidebar */}
+        {/* เพิ่ม ml-64 เลื่อนเนื้อหาหลักไปขวาให้พ้น Sidebar */}
         <SuccessAtvBooking />
       </div>
     </div>
